@@ -3,7 +3,7 @@ layout: post
 title: Toko AyoKerjaYai.Com!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+PT. AyoKerjaYai.Com Inc. berdiri sejak tahun 2020, dan lebih dikenal dengan nama AyoKerjaYai.COM yang beranggotakan 1 orang namun tersebear di seluruh Indonesia sebagai ajang berbisnis online dengan moto "mulailah berbisnis sedini mungkin walaupun itu belum sempurna yakinkanlah bahwa itu akan menjadi sempurna".
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
