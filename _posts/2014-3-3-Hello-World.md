@@ -20,4 +20,4 @@ Fitur
 
 Aplikasi ini akan terus diupdate, ayo mulai dapatkan pekerjaan yang kamu inginkan disini!
 
-link Download: https://www.pling.com/p/1921124/ (on Pling).
+link Download: [https://www.pling.com/p/1921124/](https://www.pling.com/p/1921124/) (on Pling).
