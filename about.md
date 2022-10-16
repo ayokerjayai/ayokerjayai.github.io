@@ -18,7 +18,7 @@ Inovasi lain yang dilakukan adalah membuat Aplikasi berbasis Android yang telah 
 
 ### Situs Affiliasi kami
 
-Toko Online **AyoKerjaYai.Com** => https://toko.ayokerjayai.com/ (subdomain)
+Toko Online **AyoKerjaYai.Com** => [https://toko.ayokerjayai.com/](https://toko.ayokerjayai.com/) (subdomain)
 
 ### Contact me
 
