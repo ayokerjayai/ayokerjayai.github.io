@@ -5,6 +5,19 @@ title: Toko AyoKerjaYai.Com!
 
 PT. AyoKerjaYai.Com Inc. berdiri sejak tahun 2020, dan lebih dikenal dengan nama AyoKerjaYai.COM yang beranggotakan 1 orang namun tersebear di seluruh Indonesia sebagai ajang berbisnis online dengan moto "mulailah berbisnis sedini mungkin walaupun itu belum sempurna yakinkanlah bahwa itu akan menjadi sempurna".
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/6.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Info Loker Lampung adalah aplikasi android yang menyediakan Informasi lowongan kerja di daerah Lampung dan Seluruh Indonesia.
+
+Fitur
+1. Update Lowongan kerja Otomatis setiap Hari
+2. Fitur info CPNS, PPPK, Bank/BUMN
+3. Menyimpan lowongan kerja Favorit
+4. Fitur Jasa CV Kreatif menarik
+5. Pasang Lowongan Kerja
+6. Toko Online Gratis
+7. Artikel Tips cepat diterima Kerja
+
+Aplikasi ini akan terus diupdate, ayo mulai dapatkan pekerjaan yang kamu inginkan disini!
+
+link Download: https://www.pling.com/p/1921124/ (on Pling).
