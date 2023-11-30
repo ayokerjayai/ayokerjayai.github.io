@@ -261,10 +261,9 @@ background-size: cover;
 background-position: center;
 object-fit: cover;
 }
-#zuck-modal-content .story-viewer .head .time {
-opacity: 0.75;
-font-weight: 500;
-font-size: 13px;
+#zuck-modal-content .story-viewer .head .left .time,
+#zuck-modal-content .story-viewer .head .right .close {
+display: none;
 }
 #zuck-modal-content .story-viewer .head .left .info {
 display: inline-block;
@@ -274,11 +273,6 @@ vertical-align: middle;
 width: 100%;
 display: inline-block;
 line-height: 21px;
-}
-#zuck-modal-content .story-viewer .head .right .close {
-font-size:24px;
-color:#ffffff;
-cursor:pointer;
 }
 #zuck-modal-content .story-viewer .head .left .back {
 display: none;
@@ -531,6 +525,10 @@ display: block;
 }
 .stories.list .story > .item-link > .info .time {
 display: inline-block;
+white-space: nowrap;
+font-size: 15px;
+margin: 15px 0;
+line-height: 30px;
 }
 .stories.list .story > .items {
 display: none;
