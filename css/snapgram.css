@@ -275,6 +275,11 @@ width: 100%;
 display: inline-block;
 line-height: 21px;
 }
+#zuck-modal-content .story-viewer .head .right .close {
+font-size:24px;
+color:#ffffff;
+cursor:pointer;
+}
 #zuck-modal-content .story-viewer .head .right .time {
 display: none;
 }
