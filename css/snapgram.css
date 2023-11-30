@@ -161,8 +161,8 @@ z-index: 0;
 #zuck-modal-content .story-viewer.loading .head .loading {
 display: block;
 }
-#zuck-modal-content .story-viewer.loading .head .right .close,
-#zuck-modal-content .story-viewer.loading .head .right .time {
+#zuck-modal-content .story-viewer.loading .head .right .time,
+#zuck-modal-content .story-viewer.loading .head .right .close {
 display: none;
 }
 #zuck-modal-content .story-viewer .slides-pagination span {
@@ -276,11 +276,7 @@ display: inline-block;
 line-height: 21px;
 }
 #zuck-modal-content .story-viewer .head .right .time {
-display: block;
-white-space: nowrap;
-font-size: 15px;
-margin: 15px 0;
-line-height: 30px;
+display: none;
 }
 #zuck-modal-content .story-viewer .head .left .back {
 display: none;
@@ -415,10 +411,6 @@ left: auto;
 right: 50%;
 transform: translateX(50%);
 }
-#zuck-modal-content .story-viewer .head .left .time,
-#zuck-modal-content .story-viewer .head .right .close {
-display: none;
-}
 .stories.carousel {
 white-space: nowrap;
 overflow: auto;
@@ -486,7 +478,11 @@ overflow: hidden;
 font-weight: 300;
 }
 .stories.carousel .story > .item-link > .info .time {
-display: none;
+display: block;
+white-space: nowrap;
+font-size: 15px;
+margin: 15px 0;
+line-height: 30px;
 }
 .stories.carousel .story > .items {
 display: none;
