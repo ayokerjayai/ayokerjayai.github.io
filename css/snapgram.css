@@ -536,7 +536,7 @@ font-weight: 500;
 display: block;
 }
 .stories.list .story > .item-link > .info .time {
-display: none;
+display: inline-block;
 }
 .stories.list .story > .items {
 display: none;
