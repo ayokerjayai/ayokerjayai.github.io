@@ -483,11 +483,7 @@ overflow: hidden;
 font-weight: 300;
 }
 .stories.carousel .story > .item-link > .info .time {
-display: block;
-white-space: nowrap;
-font-size: 15px;
-margin: 15px 0;
-line-height: 30px;
+display: none;
 }
 .stories.carousel .story > .items {
 display: none;
