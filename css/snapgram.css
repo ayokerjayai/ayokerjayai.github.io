@@ -161,8 +161,8 @@ z-index: 0;
 #zuck-modal-content .story-viewer.loading .head .loading {
 display: block;
 }
-#zuck-modal-content .story-viewer.loading .head .right .time,
-#zuck-modal-content .story-viewer.loading .head .right .close {
+#zuck-modal-content .story-viewer.loading .head .right .close,
+#zuck-modal-content .story-viewer.loading .head .right .time {
 display: none;
 }
 #zuck-modal-content .story-viewer .slides-pagination span {
@@ -536,7 +536,7 @@ font-weight: 500;
 display: block;
 }
 .stories.list .story > .item-link > .info .time {
-display: inline-block;
+display: none;
 }
 .stories.list .story > .items {
 display: none;
