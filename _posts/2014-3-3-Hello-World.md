@@ -20,4 +20,4 @@ Fitur
 
 Aplikasi ini akan terus diupdate, ayo mulai dapatkan pekerjaan yang kamu inginkan disini!
 
-link Download: [#](Deleted) (on Pling).
+link Download: [Deleted](#) (on Pling).
