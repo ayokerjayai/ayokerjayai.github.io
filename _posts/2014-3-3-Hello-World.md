@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Toko AyoKerjaYai.Com!
+title: Toko AyoKerjaYai.COM!
 ---
 
-PT. AyoKerjaYai.Com Inc. berdiri sejak tahun 2020, dan lebih dikenal dengan nama AyoKerjaYai.COM yang beranggotakan 1 orang namun tersebear di seluruh Indonesia sebagai ajang berbisnis online dengan moto "mulailah berbisnis sedini mungkin walaupun itu belum sempurna yakinkanlah bahwa itu akan menjadi sempurna".
+Toko AyoKerjaYai.COM Inc. berdiri sejak tahun 2020, dan lebih dikenal dengan nama AyoKerjaYai.COM yang beranggotakan 1 orang namun tersebear di seluruh Indonesia sebagai ajang berbisnis online dengan moto "mulailah berbisnis sedini mungkin walaupun itu belum sempurna yakinkanlah bahwa itu akan menjadi sempurna".
 
 ![_config.yml]({{ site.baseurl }}/images/6.png)
 
@@ -20,4 +20,4 @@ Fitur
 
 Aplikasi ini akan terus diupdate, ayo mulai dapatkan pekerjaan yang kamu inginkan disini!
 
-link Download: [https://www.pling.com/p/1921124/](https://www.pling.com/p/1921124/) (on Pling).
+link Download: [#](Deleted) (on Pling).
