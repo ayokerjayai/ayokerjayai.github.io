@@ -19,7 +19,8 @@ Inovasi lain yang dilakukan adalah membuat Aplikasi berbasis Android yang telah 
 ### Situs Affiliasi kami
 
 Toko Online **AyoKerjaYai.COM** => [https://toko.ayokerjayai.com/](https://toko.ayokerjayai.com/) (subdomain)
-Modern Trend **Motren.ID** => [https://www.motren.id/](https://www.motren.id/) (Blog)
+
+Modern Trend **Motren.ID** => [https://www.motren.id/](https://www.motren.id/) (Blog Tutorial)
 
 ### Contact me
 
