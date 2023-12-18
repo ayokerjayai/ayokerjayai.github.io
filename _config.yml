@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: cdn AyoKerjaYai Inc.
+name: AyoKerjaYai Inc.
 
 # Short bio or description (displayed in the header)
 description: Web Developer from AyoKerjaYai.COM
@@ -21,7 +21,7 @@ footer-links:
   email: adm.ayokerjayai@gmail.com
   facebook:
   flickr:
-  github:
+  github: ayokerjayai
   instagram: ayokerjayai
   linkedin: ayokerjayai
   pinterest:
