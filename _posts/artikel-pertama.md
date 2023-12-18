@@ -20,4 +20,4 @@ Fitur
 
 Aplikasi ini akan terus diupdate, ayo mulai dapatkan pekerjaan yang kamu inginkan disini!
 
-Link Dpwnload: [Deleted]({{ site.baseurl }}/#) (**Pling**)
+Link Dpwnload: [Deleted](#) (**Pling**)
