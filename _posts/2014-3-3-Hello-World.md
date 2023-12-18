@@ -19,5 +19,3 @@ Fitur
 7. Artikel Tips cepat diterima Kerja
 
 Aplikasi ini akan terus diupdate, ayo mulai dapatkan pekerjaan yang kamu inginkan disini!
-
-link Download: (**Deleted**).
