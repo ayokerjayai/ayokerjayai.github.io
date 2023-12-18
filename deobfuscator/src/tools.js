@@ -346,5 +346,5 @@ window.simplifyHex = function () {
 };
 
 window.gotoRepo = function () {
-  window.open("https://cdn.ayokerjayai.com/deobfuscator/", "_blank");
+  window.open("https://cdn.ayokerjayai.com/deobfuscator", "_blank");
 };
