@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>jsdfe: JavaScript Deobfuscator Full of Excuses</title>
+<title>jsbep: JavaScript Baca-pengaburkan Eksekusi Penuh</title>
 <style type="text/css">
 body {
 	background-color: beige;
@@ -54,21 +54,21 @@ a.button:hover {
 </head>
 <body>
 <div>
-<span id="title">jsdfe: JavaScript Deobfuscator Full of Excuses</span>
+<span id="title">jsbep: JavaScript Baca-pengaburkan Eksekusi Penuh</span>
 <span id="version"></span>
-<button id="hide-excuses">Hide/Show Excuses</button>
+<button id="hide-excuses">Hide/Show Pernyataan</button>
 </div>
 <ul id="excuses">
-<li>Tujuan dari program ini adalah untuk membuat skrip yang dikaburkan lebih mudah dibaca dan membantu Anda memahami perilaku kasarnya, bukan untuk mencoba mereproduksi kode asli atau mengeluarkan kode yang dapat dieksekusi.</li>
+<li>Tujuan dari program ini adalah untuk membuat script yang dikaburkan lebih mudah dibaca dan membantu Anda memahami perilaku kasarnya, bukan untuk mencoba mereproduksi kode asli atau mengeluarkan kode yang dapat dieksekusi.</li>
 <li>Program ini dibangun di atas nodejs dan babel.</li>
-<li>Saya mengembangkan program ini untuk saya gunakan sendiri. Ini sering berakhir dengan kesalahan yang tidak tertangkap dan terkadang masuk ke loop tak terbatas dan membeku serta mengeksekusi beberapa kode skrip target di VM tanpa mempertimbangkan keamanan. VM diimplementasikan sebagai iframe[sandbox=""] dan dokumennya memiliki Content-Security-Policy:default-src 'self'; skrip-src 'unsafe-eval'. Anda dapat menguji keamanan/kerentanan VM dengan menempatkan kode apa pun di kotak input dan mengklik [Jalankan kode di vm(iframe)]. Lihat hasilnya di Alat Pengembang.</li>
+<li>Saya mengembangkan program ini untuk saya gunakan sendiri. Ini sering berakhir dengan kesalahan yang tidak tertangkap dan terkadang masuk ke loop tak terbatas dan membeku serta mengeksekusi beberapa kode script target di VM tanpa mempertimbangkan keamanan. VM diimplementasikan sebagai iframe[sandbox=""] dan dokumennya memiliki Content-Security-Policy:default-src 'self'; script-src 'unsafe-eval'. Anda dapat menguji keamanan/kerentanan VM dengan menempatkan kode apa pun di kotak input dan mengklik [Jalankan kode di vm(iframe)]. Lihat hasilnya di Alat Pengembang.</li>
 <li>Kemajuannya ditampilkan ke konsol alat pengembang.</li>
 <li>Harap pastikan Anda memahami hal di atas sebelum menjalankan.</li>
-<li><a href="https://github.com/ayokerjayai/ayokerjayai.github.io/tree/master/javascript-deobfuscator">github repository</a>. Selamat bersenang-senang.</li>
+<li><b>github repository</b>. Selamat bersenang-senang.</li>
 </ul>
 <div id="opts">Options:
 </div>
-<span>[*1] Mengorbankan akurasi sangat banyak. &nbsp;[*2] Pengorbanan akurasi. &nbsp;[*3] Dapat menghasilkan nama duplikat dengan nama built-in (bawaan) global ketika skrip target berjalan selain di browser.</span>
+<span>[*1] Mengorbankan akurasi sangat banyak. &nbsp;[*2] Pengorbanan akurasi. &nbsp;[*3] Dapat menghasilkan nama duplikat dengan nama built-in (bawaan) global ketika script target berjalan selain di browser.</span>
 <div>
 Input (Tempel teks atau letakkan file):<br />
 <textarea id="input" rows="14" spellcheck="false"></textarea><br />
@@ -85,7 +85,7 @@ Output:<br />
 <script>
 if (location.protocol !== "file:"){
 	let e = document.createElement("iframe");
-	e.src = "https://ayokerjayai.github.io/javascript-deobfuscator/";
+	e.src = "https://cdn.ayokerjayai.com/javascript-deobfuscator/";
 	document.body.appendChild(e);
 }
 document.addEventListener("DOMContentLoaded", ()=>{
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 			{ name: "remove-extra", label: "remove-extra [*2]", title: "Hapus metacode untuk obfuscator.io dan jscrambler" },
 			{ name: "remove", arg: "unref", label: "remove unref [*2]", title: "Hapus variabel yang tidak direferensikan" },
 			{ name: "rename", type: "text", width: "10em", label: "Rename [*3] id matching:", placeholder: "^_0x (placeholder)", title: "Masukkan pola untuk diganti namanya."},
-			{ name: "exclude", arg: "obfuscator-io", title: "jangan mendeteksi obfuscator.io, percepat penguraian skrip besar yang dikaburkan selain obfuscator.io" },
+			{ name: "exclude", arg: "obfuscator-io", title: "jangan mendeteksi obfuscator.io, percepat penguraian script besar yang dikaburkan selain obfuscator.io" },
 			{ name: "obfuscator-io-ignore-uri-malformed-error" },
 			{ name: "parser-option", arg: "allowReturnOutsideFunction", label: "allowReturnOutsideFunction", title: "opsi pengurai babel" },
 			{ name: "parser-option", arg: "allowAwaitOutsideFunction", label: "allowAwaitOutsideFunction", title: "opsi pengurai babel" },
@@ -219,9 +219,9 @@ console.log(a); // 'eval-assign' akan mengganti variabel dengan literal jika mem
 	d.getElementById("runCode").addEventListener("click", function(){
 		let opts = {run: "run-in-vm"};
 		let code = d.getElementById("input").value;
-		d.getElementById("output").value = "Mulai skripnya.";
+		d.getElementById("output").value = "Mulai scriptnya.";
 		let res = decode(code, opts);
-		output.value = "Skrip telah selesai.";
+		output.value = "Script telah selesai.";
 	});
 });
 </script>
