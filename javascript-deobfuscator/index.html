@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>jsbep: JavaScript Baca-pengaburan Eksekusi Penuh</title>
-<meta http-equiv="refresh" content="0; URL=https://cdn.motren.id/deobfuscator/jsbep/">
+<!--<meta http-equiv="refresh" content="0; URL=https://cdn.motren.id/deobfuscator/jsbep/">
 <link rel="canonical" href="https://cdn.motren.id/deobfuscator/jsbep/">
     <script>
         window.onload = function () {
@@ -18,7 +18,7 @@
                 window.location.href = redirectLocation;
             }
         }
-    </script>
+    </script>-->
 <style type="text/css">
 body {
 	background-color: beige;
@@ -70,22 +70,22 @@ a.button:hover {
 <div>
 <span id="title">jsbep: JavaScript Baca-pengaburan Eksekusi Penuh</span>
 <span id="version"></span>
-<button id="hide-excuses">Hide/Show Pernyataan</button>
+<button id="hide-excuses">Tutup/Buka Pernyataan</button>
 </div>
 <ul id="excuses">
-<li>Tujuan dari program ini adalah untuk membuat script yang dikaburkan lebih mudah dibaca dan membantu Anda memahami perilaku kasarnya, bukan untuk mencoba mereproduksi kode asli atau mengeluarkan kode yang dapat dieksekusi.</li>
+<li>Tujuan dari program ini dibuat adalah untuk membuat script yang dikaburkan agar lebih mudah dibaca dan dipahami perilaku kasarnya, bukan untuk mencoba mereproduksi kode asli atau mengeluarkan kode yang dapat dieksekusi.</li>
 <li>Program ini dibangun di atas nodejs dan babel.</li>
-<li>Saya mengembangkan program ini untuk saya gunakan sendiri. Ini sering berakhir dengan kesalahan yang tidak tertangkap dan terkadang masuk ke loop tak terbatas dan membeku serta mengeksekusi beberapa kode script target di VM tanpa mempertimbangkan keamanan. VM diimplementasikan sebagai iframe[sandbox=""] dan dokumennya memiliki Content-Security-Policy:default-src 'self'; script-src 'unsafe-eval'. Anda dapat menguji keamanan/kerentanan VM dengan menempatkan kode apa pun di kotak input dan mengklik [Jalankan kode di vm(iframe)]. Lihat hasilnya di Alat Pengembang.</li>
-<li>Kemajuannya ditampilkan ke konsol alat pengembang.</li>
+<li>Saya mengembangkan program ini untuk saya gunakan sendiri. Ini sering berakhir dengan kesalahan yang tidak tertangkap dan terkadang masuk ke loop tak terbatas dan membeku serta mengeksekusi beberapa kode script target di VM tanpa mempertimbangkan keamanan. VM diimplementasikan sebagai iframe[sandbox=""] dan dokumennya memiliki Content-Security-Policy:default-src 'self'; script-src 'unsafe-eval'. Anda dapat menguji keamanan/kerentanan VM dengan menempatkan kode apa pun di kotak input dan mengklik [Run code in vm(iframe)]. Lihat hasilnya di Alat Pengembang.</li>
+<li>Kemajuannya ditampilkan ke console alat pengembang.</li>
 <li>Harap pastikan Anda memahami hal di atas sebelum menjalankan.</li>
-<li><b>github repository</b>. Selamat bersenang-senang.</li>
+<li><b>Coffe by Admin: AyoKerjaYai.COM</b>. Selamat bersenang-senang. ^_^</li>
 </ul>
 <div id="opts">Options:
 </div>
-<span>[*1] Mengorbankan akurasi sangat banyak. &nbsp;[*2] Pengorbanan akurasi. &nbsp;[*3] Dapat menghasilkan nama duplikat dengan nama built-in (bawaan) global ketika script target berjalan selain di browser.</span>
+<span>[*1] Pengorbanan akurasi sangat banyak. &nbsp;[*2] Pengorbanan akurasi. &nbsp;[*3] Dapat menghasilkan nama duplikat dengan nama built-in (bawaan) global ketika script target berjalan selain di browser.</span>
 <div>
 Input (Tempel teks atau letakkan file):<br />
-<textarea id="input" rows="14" spellcheck="false"></textarea><br />
+<textarea id="input" rows="16" spellcheck="false"></textarea><br />
 <button id="run">Deobfuscate</button>
 <a id="download" class="button" download="output.txt">Download output</a>
 <button id="copy">Copy output to clipboard</button>
@@ -94,7 +94,7 @@ Input (Tempel teks atau letakkan file):<br />
 </div>
 <div>
 Output:<br />
-<textarea id="output" rows="13" spellcheck="false"></textarea><br />
+<textarea id="output" rows="15" spellcheck="false"></textarea><br />
 </div>
 <script>
 if (location.protocol !== "file:"){
